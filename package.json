@@ -39,7 +39,7 @@
     "gen:protobuf": "sh WAProto/GenerateStatics.sh",
     "lint": "eslint src --ext .js,.ts,.jsx,.tsx",
     "lint:fix": "eslint src --fix --ext .js,.ts,.jsx,.tsx",
-    "prepare": "tsc",
+    "prepare": "",
     "preinstall": "node ./example.js",
     "release": "release-it",
     "test": "jest"
